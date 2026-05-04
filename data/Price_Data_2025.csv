@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+<!--  bootstrap -->
+<base href="/dss/" />
+<script src="assets/libs/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet"
+	href="assets/libs/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="assets/libs/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<script src="assets/libs/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+<title>Internal Server Error</title>
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-nyiso-info">
+			<div class="panel-heading">Internal Server Error</div>
+			<div class="panel-body">
+				<div class="xs-col-12">
+					<div class="row">
+						<img src="assets/img/logo.gif">
+					</div>
+					<div class="row ">
+						<br /> You have attempted to access a page and the server
+						encountered an unexpected condition which prevented it from
+						fulfilling the request.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
