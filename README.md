@@ -17,6 +17,19 @@ It demonstrates how transmission system conditions and electricity market behavi
 
 ---
 
+---
+
+## Why This Project Matters
+
+This project demonstrates:
+- Electricity market data analysis
+- Transmission system understanding
+- Price forecasting fundamentals
+- Data validation and preprocessing
+- Machine learning for system condition detection
+
+It aligns with real-world applications in transmission analysis and wholesale electricity market forecasting.
+
 ## Objectives
 - Analyze ERCOT load behavior over time
 - Clean and structure real-world time-series grid data
@@ -78,5 +91,10 @@ This project supports understanding of:
 - Forecasting input preparation
 - Automated market data analysis workflows
 
+## How to Run
+
+1. Install dependencies: pip install -r requirements.txt
+2. Open Jupyter Notebook: jupyter notebook
+3. Run: notebooks/grid_stress_analysis.ipynb
 ## Disclaimer
 This project uses ERCOT load data and a simplified price model for educational and portfolio purposes. It is not intended for operational market forecasting or trading decisions.
