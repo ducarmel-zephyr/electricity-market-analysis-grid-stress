@@ -1,5 +1,13 @@
 # Electricity Market Data Analysis & Grid Stress Prediction System
 
+## Project Highlights
+- Processed real ERCOT electricity load data
+- Built Python data pipelines for time-series analysis
+- Modeled electricity price behavior based on demand
+- Developed machine learning model for grid stress detection
+- Implemented early warning system using probability smoothing
+- Integrated PowerWorld insights for transmission system understanding
+
 ## Overview
 This project analyzes ERCOT electricity load data to study system demand behavior, model price response, and detect high-stress grid conditions using Python, SQL concepts, and machine learning.
 
