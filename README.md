@@ -1,3 +1,4 @@
+## 🔬 Electricity Market Analysis Project (ERCOT)
 # Electricity Market Data Analysis & Grid Stress Prediction System
 
 ## Overview
