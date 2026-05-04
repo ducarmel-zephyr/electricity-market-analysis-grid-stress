@@ -74,13 +74,19 @@ The machine learning model improved after addressing class imbalance and adding 
 Smoothed probability outputs were used to create an early warning signal for increasing grid stress risk.
 
 ### Load Behavior
-![Load Curve](outputs/ercot_load_curve.png)
+<img src="outputs/ercot_load_curve.png" width="800">
+
+The ERCOT load profile shows clear seasonal and daily demand patterns, with peak demand occurring during summer months. These high-load periods are associated with increased system stress and higher probability of congestion.
 
 ### Stress Detection
-![Stress Detection](outputs/stress_prediction.png)
+<img src="outputs/stress_prediction.png" width="800">
+
+The machine learning model (Random Forest) successfully identifies high-stress grid conditions, particularly during peak demand periods. These events correspond to elevated system load and simulated price conditions.
 
 ### Early Warning System
-![Stress Probability](outputs/stress_probability.png)
+<img src="outputs/stress_probability.png" width="800">
+
+The smoothed probability output provides an early warning signal of increasing grid stress. Instead of binary detection, this approach captures gradual increases in risk, allowing for proactive system awareness.
 
 ## Relevance to Transmission Analysis
 This project supports understanding of:
@@ -90,6 +96,12 @@ This project supports understanding of:
 - Data quality and validation
 - Forecasting input preparation
 - Automated market data analysis workflows
+
+## Engineering Insight
+
+This project demonstrates how electricity market behavior can be linked to transmission system conditions. High load levels increase the likelihood of congestion and higher marginal pricing, which can be interpreted as stress on the system.
+
+By combining data analysis, machine learning, and power flow simulation concepts, this approach provides a simplified framework for understanding how grid conditions influence market outcomes.
 
 ## How to Run
 
