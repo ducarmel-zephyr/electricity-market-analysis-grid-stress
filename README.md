@@ -1,17 +1,21 @@
 # Electricity Market Data Analysis & Grid Stress Prediction System
 
+## Overview
+This project analyzes ERCOT electricity load data to understand system behavior, model price response, and detect high-stress grid conditions using Python and machine learning.
+
+It demonstrates how transmission system conditions and electricity market behavior can be analyzed using data-driven methods.
+
+---
+
 ## Project Highlights
 - Processed real ERCOT electricity load data
 - Built Python data pipelines for time-series analysis
 - Modeled electricity price behavior based on demand
-- Developed machine learning model for grid stress detection
+- Developed machine learning model (Random Forest) for grid stress detection
 - Implemented early warning system using probability smoothing
-- Integrated PowerWorld insights for transmission system understanding
+- Applied PowerWorld simulation to understand transmission system constraints and congestion
 
-## Overview
-This project analyzes ERCOT electricity load data to study system demand behavior, model price response, and detect high-stress grid conditions using Python, SQL concepts, and machine learning.
-
-The project was developed to support transmission analysis, wholesale electricity market understanding, and price forecasting preparation.
+---
 
 ## Objectives
 - Analyze ERCOT load behavior over time
@@ -55,6 +59,15 @@ The project was developed to support transmission analysis, wholesale electricit
 The system identified high-load and high-price conditions as potential stress events.  
 The machine learning model improved after addressing class imbalance and adding key features.  
 Smoothed probability outputs were used to create an early warning signal for increasing grid stress risk.
+
+### Load Behavior
+![Load Curve](outputs/ercot_load_curve.png)
+
+### Stress Detection
+![Stress Detection](outputs/stress_prediction.png)
+
+### Early Warning System
+![Stress Probability](outputs/stress_probability.png)
 
 ## Relevance to Transmission Analysis
 This project supports understanding of:
